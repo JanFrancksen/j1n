@@ -10,7 +10,7 @@ const Hero = () => {
           && Code
         </h1>
         <h2 className="text-1xl">
-          Developer currently working
+          Developer currently working{' '}
           <a
             href="https://www.cleverreach.com"
             rel="noopener noreferrer"
