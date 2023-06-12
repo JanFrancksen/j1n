@@ -10,16 +10,16 @@ const Navbar = () => {
       </div>
       <ul className="flex gap-x-4 items-center text-black text-sm">
         <li>
-          <Link href="">Home</Link>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <Link href="">About</Link>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <Link href="">Projects</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li className="px-4 py-2 border border-neutral-500 hover:bg-neutral-300 transition-colors rounded">
-          <Link href="">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>

@@ -9,29 +9,30 @@ export default function Home() {
     <main className="">
       <Hero />
       <ShowoffModule
+        id="skills"
         title="Design, Development and Content."
-        subtitle="SERVICES"
+        subtitle="Skills"
         color="white"
         description="Take your online presence to the next level with my expert web design and content creation services."
       >
         <ShowoffCard
-          title="Web Design"
+          title="Development"
           content="Premium, custom web design services that cater to the unique needs of each client. Visually stunning and user-friendly websites that drive results."
           number="01"
         />{' '}
         <ShowoffCard
-          title="Web Design"
+          title="Design"
           content="Premium, custom web design services that cater to the unique needs of each client. Visually stunning and user-friendly websites that drive results."
           number="02"
         />{' '}
         <ShowoffCard
-          title="Web Design"
+          title="Content"
           content="Premium, custom web design services that cater to the unique needs of each client. Visually stunning and user-friendly websites that drive results."
           number="03"
         />
       </ShowoffModule>
 
-      <div className="flex flex-col gap-y-8 bg-white">
+      <section id="projects" className="flex flex-col gap-y-8 bg-white">
         <ProjectReference
           title="Test Projekt"
           description="Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet"
@@ -49,9 +50,10 @@ export default function Home() {
           description="Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet Lorem Ipsum Dolor sit amet"
           link="/"
         />
-      </div>
+      </section>
 
       <ShowoffModule
+        id="about"
         title="Design, Development and Content."
         subtitle="SERVICES"
         color="white"
