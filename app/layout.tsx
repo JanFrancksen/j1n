@@ -1,8 +1,9 @@
 import Navbar from '@/components/navbar';
-import { Inter } from 'next/font/google';
+import { Inter, Rubik } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
+const rubik = Rubik({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'j1n dev',
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body
-        className={`${inter.className} bg-neutral-900 text-white font-light`}
+        className={`${rubik.className} bg-neutral-900 text-white font-light`}
       >
         <Navbar />
         {children}
