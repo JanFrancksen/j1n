@@ -25,11 +25,13 @@ const Hero = () => {
           </a>
         </h2>
       </div>
-      <Image
-        src={me}
-        alt="Jan, a blond guy with glasses, tattoos and a beige shirt."
-        className="absolute right-0 bottom-0 h-full w-auto -z-10"
-      />
+      <div className="absolute right-0 bottom-0 h-full -z-10">
+        <Image
+          src={me}
+          alt="Jan, a blond guy with glasses, tattoos and a beige shirt."
+          className="h-full w-auto aspect-auto object-cover"
+        />
+      </div>
     </section>
   );
 };
