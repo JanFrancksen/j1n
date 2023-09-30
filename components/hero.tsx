@@ -4,10 +4,10 @@ import me from '@/public/me.png';
 const Hero = () => {
   return (
     <section
-      className="xl:w-5/6 mx-auto h-screen flex items-center justify-center relative"
+      className="xl:w-5/6 max-xl:p-4 mx-auto h-screen flex items-center justify-center relative"
       id="home"
     >
-      <div className="flex flex-col gap-y-4 w-fit max-sm:p-4">
+      <div className="w-fit mr-auto">
         <h1 className="text-7xl sm:text-9xl font-bold uppercase">
           Design
           <br />
