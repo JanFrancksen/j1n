@@ -3,6 +3,7 @@ import Hero from '@/components/hero';
 import ProjectReference from '@/components/projectReference';
 import ShowoffCard from '@/components/showoffCard';
 import ShowoffModule from '@/components/showoffModule';
+import comingsoon from '@/public/comingsoon.png';
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
           title="CookiBooki"
           description="The cookbook app to fix all the problems you could possibly get in the kitchen. Create or find recipes, use what you have in the fridge or use the extensive community features."
           link="https://www.cookibooki.app"
+          imgSource={comingsoon}
           isExternal
         />
 
@@ -44,6 +46,7 @@ export default function Home() {
           title="Tooled"
           description="A collection of the best development and design tools on the market. Filterable, nicely displayed and constantly curated."
           link="/"
+          imgSource={comingsoon}
         />
       </section>
 
