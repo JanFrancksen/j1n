@@ -22,7 +22,7 @@ const Footer = () => {
       <h2 className="text-xl font-bold uppercase">j1n.dev</h2>
       <div>
         {SOCIALLINKS.map((social, index) => (
-          <div key={social.name}>
+          <div key={social.name} className="inline">
             <a href={social.link} className="hover:underline">
               {social.name}
             </a>

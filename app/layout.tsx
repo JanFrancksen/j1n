@@ -17,9 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body
-        className={`${rubik.className} bg-neutral-900 text-white font-light`}
-      >
+      <body className={`${rubik.className} bg-gray-900 text-white font-light`}>
         <Navbar />
         {children}
       </body>

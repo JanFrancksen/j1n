@@ -18,8 +18,8 @@ const ProjectReference: React.FC<ProjectReferenceProps> = ({
 }) => {
   return (
     <div className="bg-white overflow-hidden">
-      <div className="w-5/6 mx-auto relative">
-        <div className="xl:absolute bottom-8 left-8 p-8 z-10 border rounded backdrop-blur-lg bg-gray-900 xl:bg-opacity-50 xl:w-1/3">
+      <div className="w-5/6 mx-auto relative max-lg:rounded max-lg:overflow-hidden">
+        <div className="xl:absolute bottom-8 left-8 p-8 z-10 lg:border lg:rounded backdrop-blur-lg bg-gray-900 xl:bg-opacity-50 xl:w-1/3">
           <h5 className="text-3xl mb-2">{title}</h5>{' '}
           <p className="mb-4">{description}</p>
           {isExternal ? (
@@ -37,8 +37,8 @@ const ProjectReference: React.FC<ProjectReferenceProps> = ({
             </Link>
           )}
         </div>
-        <div className="bg-gray-900 aspect-[16/8] w-full rounded">
-          <div className="rounded-t w-10/12 aspect-video absolute -bottom-16 lg:-bottom-24 hover:-bottom-12 right-12 transition-all hover:rotate-2 duration-1000 overflow-hidden">
+        <div className="bg-gray-900 aspect-[16/8] w-full lg:rounded">
+          <div className="rounded-t w-10/12 aspect-video absolute -bottom-2 lg:-bottom-24 lg:hover:-bottom-12 max-lg:left-1/2 max-lg:-translate-x-1/2 lg:right-12 transition-all lg:hover:rotate-2 duration-1000 overflow-hidden">
             <Image
               src={imgSource}
               alt={title}
