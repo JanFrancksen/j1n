@@ -24,7 +24,7 @@ const ShowoffModule: React.FC<ShowoffModuleProps> = ({
         color === 'white' ? 'bg-white text-neutral-950' : ''
       } min-h-screen flex justify-center items-center`}
     >
-      <div className="grid grid-cols-2 w-5/6 mx-auto py-12">
+      <div className="grid lg:grid-cols-2 max-lg:gap-y-4 w-5/6 mx-auto py-12">
         <div className="flex flex-col gap-y-4 sticky top-24 h-fit">
           <h4 className="uppercase">{subtitle}</h4>
           <h3 className="text-4xl">{title}</h3>
