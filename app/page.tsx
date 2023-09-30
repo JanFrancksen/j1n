@@ -43,10 +43,11 @@ export default function Home() {
         />
 
         <ProjectReference
-          title="Tooled"
+          title="TooledUp!"
           description="A collection of the best development and design tools on the market. Filterable, nicely displayed and constantly curated."
-          link="/"
+          link="https://tooledup.j1n.dev/"
           imgSource={comingsoon}
+          isExternal
         />
       </section>
 
