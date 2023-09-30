@@ -19,10 +19,15 @@ const Footer = () => {
       id="contact"
       className="h-screen flex flex-col gap-y-4 justify-center items-center"
     >
-      <h2 className="text-xl">j1n.dev</h2>
+      <h2 className="text-xl font-bold uppercase">j1n.dev</h2>
       <div>
-        {SOCIALLINKS.map((social) => (
-          <a href={social.link}>{social.name}</a>
+        {SOCIALLINKS.map((social, index) => (
+          <div key={social.name}>
+            <a href={social.link} className="hover:underline">
+              {social.name}
+            </a>
+            {index !== SOCIALLINKS.length - 1 && ' - '}
+          </div>
         ))}
       </div>
     </footer>

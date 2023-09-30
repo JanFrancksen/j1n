@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import me from '@/public/me.png';
+
 const Hero = () => {
   return (
     <section
@@ -6,7 +9,8 @@ const Hero = () => {
     >
       <div className="flex flex-col gap-y-4 w-fit">
         <h1 className="text-9xl font-bold uppercase">
-          Design <br />
+          Design
+          <br />
           && Code
         </h1>
         <h2 className="text-1xl">
@@ -22,6 +26,11 @@ const Hero = () => {
         </h2>
       </div>
       <div className="flex-1" />
+      <Image
+        src={me}
+        alt="Jan, a blond guy with glasses, tattoos and a beige shirt."
+        className="h-full w-auto"
+      />
     </section>
   );
 };
